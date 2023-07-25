@@ -16,6 +16,7 @@ describe("Text", () => {
 
   it("can submit form", () => {
     cy.visit("/");
+    cy.get("a[data-cy='pizza']").click();
     cy.get("button[data-cy='order-button']").click();
   });
 });
