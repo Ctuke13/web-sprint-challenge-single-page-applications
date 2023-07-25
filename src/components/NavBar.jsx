@@ -54,7 +54,7 @@ export default function NavBar({ newOrder, change, submit, errors }) {
           <span>Pizza Delicious</span>
           <div className="link-container">
             <Link to="/">Home</Link>&nbsp;
-            <Link data-cy="pizza" to="pizza">
+            <Link id={"order-pizza"} data-cy="pizza" to="pizza">
               Order Pizza
             </Link>
             &nbsp;
